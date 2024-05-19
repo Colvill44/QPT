@@ -1,0 +1,31 @@
+.submit-button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 10px;
+    width: 7%;
+    border: 0px;
+    background-color: rgb(10, 196, 124);
+}
+
+.send-icon {
+    position: absolute;
+    color: rgb(34, 34, 34);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(34, 34, 34);
+}

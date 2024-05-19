@@ -1,0 +1,10 @@
+.prompt-input-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 15%;
+    background-color: rgb(59, 59, 59);
+    box-sizing: border-box;
+    border-radius: 15px;
+}

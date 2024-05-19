@@ -1,0 +1,10 @@
+.chat-display {
+    position: fixed;
+    top: 80px;
+    left: 8%;
+    right: 8%;
+    bottom: 10px;
+    overflow-y: auto;
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+}
