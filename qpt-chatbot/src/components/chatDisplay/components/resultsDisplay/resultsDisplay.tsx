@@ -1,7 +1,9 @@
+import './css/resultsDisplay.css'
 
 const ResultsDisplay = () => {
-    return(
-        <></>
+    return (
+        <div className='results-container'>
+        </ div>
     )
 }
 
