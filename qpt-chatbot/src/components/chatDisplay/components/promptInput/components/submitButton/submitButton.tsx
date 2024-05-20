@@ -18,6 +18,7 @@ const SubmitButton = (props: SubmitProps) => {
     // Use State for loading process
     const [searching, setSearching] = useState<any>(false);
 
+    // Button submission api request
     const submitPrompt = async () => {
         setSearching(true);
         const openai = new OpenAI({ apiKey: process.env.REACT_APP_OPENAI_API_KEY, dangerouslyAllowBrowser: true });

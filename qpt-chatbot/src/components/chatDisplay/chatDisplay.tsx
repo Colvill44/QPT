@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import PromptInput from './components/promptInput/promptInput';
 import ResultsDisplay from './components/resultsDisplay/resultsDisplay';
-import OpenAI from "openai";
 import './css/chatDisplay.css'
 
 const ChatDisplay = () => {
