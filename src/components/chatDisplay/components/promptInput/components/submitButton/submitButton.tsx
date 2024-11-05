@@ -31,6 +31,7 @@ const SubmitButton = (props: SubmitProps) => {
         console.log(result.choices[0])
         setResults(result.choices[0])
         setSearching(false);
+        console.log(results)
     };
 
     return (
