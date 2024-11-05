@@ -1,0 +1,25 @@
+name: Deploy to s3 Hosted Website
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: node:alpine
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        node-version: '20'
+      
+      - name: Install Dependencies
+        run: npm install
+      
+      - name: Build App
+        run: npm run build
+      
